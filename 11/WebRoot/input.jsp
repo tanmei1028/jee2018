@@ -23,7 +23,7 @@
 
 <body>
 
-	<s:form action="Calculate" method="post">
+	<s:form action="Calculate" method="post" namespace="/sec">
 		请输入第一个数:<s:textfield name="num1"></s:textfield><br>
 		请输入第二个数:<s:textfield name="num2"></s:textfield><br> 
 		<s:submit value="+"  name="operation"></s:submit>

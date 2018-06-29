@@ -23,17 +23,16 @@
 	-->
 
 </head>
-
-<body>
-<s:debug>
-	<s:form action="LoginAction" method="post">
-		<s:textfield key="username" />
+<body bgcolor=#EEDDEE>
+	<s:form action="CheckLoginByObj" method="post">
+		<s:textfield key="id" />
 		<br>
 		<s:password key="password" />
 		<br>
-		<s:submit key="login" />
-		<s:reset key="reset" />	
+		<s:submit key="login" style="position: relative ;right:200px;top:30px;"/>
+		<s:reset key="reset" style="position: relative ;right:100px;"/>
+		<s:submit key="regist" style="position: relative ;bottom:30px;" onclick="window.location.href='RegisterPrepareAction.action';return false" />
 	</s:form>
-	</s:debug>
+
 </body>
 </html>
